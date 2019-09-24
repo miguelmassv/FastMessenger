@@ -1,0 +1,139 @@
+.card-custom {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card-row {
+  display: flex;
+  border-radius: 40px;
+  margin-left: 25px;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 80px;
+  margin: auto 0;
+  border-right: 1px solid #dedede;
+}
+
+.p-date {
+  color: #707070;
+  margin-bottom: 0px;
+}
+
+.p-destination {
+  color: #707070;
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+  height: 80px;
+  margin: auto 0;
+  border-right: 1px solid #dedede;
+}
+
+.d-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-chevron-down {
+  color: #ee922a;
+  font-size: 40px;
+}
+
+.fa-location-arrow {
+  color: #707070;
+  font-size: 25px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 80px;
+  margin: auto 0;
+}
+
+.fa-truck {
+  color: #707070;
+  font-size: 50px;
+}
+
+.fa-heart {
+  color: #e74227;
+  font-size: 35px;
+}
+
+.text-price {
+  color: #707070;
+  margin-bottom: 0px;
+  font-size: 35px;
+}
+
+.fa-ellipsis-v {
+  color: #707070;
+  font-size: 23px;
+}
+
+.round {
+  width: 55px;
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  left: 0;
+  top: 35px;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.round label:after {
+  border: 3px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 11px;
+  width: 23px;
+  left: 14px;
+  top: 16px;
+  opacity: 0;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #fc8711;
+  border-color: #fc8711;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
