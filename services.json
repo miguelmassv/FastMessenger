@@ -1,0 +1,40 @@
+{
+  "services": {
+    "mylist": [],
+    "services": [
+      {
+        "id": 1,
+        "year": 2009,
+        "month": "May",
+        "dayName": "Monday",
+        "day": 7,
+        "time": "2:28 PM",
+        "initialLocation": "Houston, Tx, 33619",
+        "destination": "Atlanta, GA, 30123",
+        "fare": 6000.0
+      },
+      {
+        "id": 2,
+        "year": 2009,
+        "month": "jun",
+        "dayName": "Tuesday",
+        "day": 6,
+        "time": "1:11 PM",
+        "initialLocation": "Antioquia, Mde, 61239",
+        "destination": "Nariño, Pst, 67876",
+        "fare": 300.0
+      },
+      {
+        "id": 3,
+        "year": 2009,
+        "month": "July",
+        "dayName": "Monday",
+        "day": 10,
+        "time": "6:40 AM",
+        "initialLocation": "Cordoba, Mnt, 98756",
+        "destination": "Antioquia, Itg, 32145",
+        "fare": 3400.0
+      }
+    ]
+  }
+}
