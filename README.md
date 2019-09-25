@@ -15,7 +15,7 @@
     $ sudo npm install json-server -g
     ```
 
-4. En el directorio del ejecuta los siguientes comando para inicializar el proyecto y la API
+4. En el directorio ejecuta los siguientes comando para inicializar el proyecto y la API
 
     ```
     $ npm run start
